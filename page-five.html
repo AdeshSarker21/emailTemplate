@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Main Stylesheet-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        body {
+            background: #445d72;
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .wapper {
+            background: #ffffff;
+        }
+
+        @media all and (max-width:700px) {
+            .mainPolicyHeroImage img {
+                width: 300px !important;
+                margin-top: 50px;
+            }
+
+            .hrLeft {
+                width: 70% !important;
+                left: -36% !important;
+            }
+
+            .hrRight {
+                width: 70% !important;
+                right: -36% !important;
+            }
+        }
+
+        @media all and (max-width:600px) {
+            .mainLogo {
+                width: 120px;
+            }
+
+            .plusImage {
+                width: 70px;
+                height: 100px;
+            }
+
+            .emailHeadingText {
+                font-size: 20px;
+            }
+
+            .customPadding {
+                padding: 0px 2%;
+            }
+
+            .mainPolicyHeroImage img {
+                width: 230px !important;
+                margin-top: 42px;
+            }
+
+            .mainPolicyHeroText {
+                font-size: 24px !important;
+            }
+
+            .mainPolicyHeroImage {
+                height: 220px !important;
+            }
+
+            .customFlex {
+                flex-direction: column !important;
+            }
+
+            .policyDetailsImage {
+                margin-top: 15px !important;
+            }
+
+            .hrLeft {
+                display: none;
+            }
+
+            .hrRight {
+                display: none;
+            }
+
+            .customFlexBox {
+                justify-content: center !important;
+                flex-wrap: wrap !important;
+            }
+
+            .processingItem {
+                padding: 15px 3%;
+            }
+
+            .footerArea {
+                flex-direction: column;
+                justify-content: flex-start !important;
+                align-items: flex-start !important;
+            }
+        }
+
+        @media all and (max-width:400px) {
+            .mainPolicyHeroText {
+                font-size: 19px !important;
+            }
+
+            .medicareSolutionsHeading {
+                font-size: 24px !important;
+            }
+
+            .medicareSolutionsDetails {
+                font-size: 18px !important;
+            }
+
+            .mediacareSolutionsDetailsText {
+                font-size: 15px !important;
+            }
+
+            .helloHeading {
+                font-size: 16px !important;
+            }
+
+            .mainPolicyHeroText {
+                font-size: 18px !important;
+            }
+        }
+
+        @media all and (max-width:370px) {
+            .emailHeadingText {
+                font-size: 17px;
+            }
+
+            .mainPolicyHeroImage img {
+                width: 200px !important;
+                margin-top: 42px;
+            }
+
+            .mainPolicyHeroImage {
+                height: 190px !important;
+            }
+
+            .mainPolicyHeroText {
+                font-size: 14px !important;
+            }
+
+            .whatExpectDetails {
+                font-size: 16px !important;
+            }
+
+            .mediacareSolutionsDetailsText {
+                font-size: 14px !important;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wapper">
+        <!--=================Start Hero Section==============-->
+        <section class="mainHeroSection" style="background: #fafafa;">
+            <div class="containers">
+                <div class="heroArea">
+                    <!--Logo-->
+                    <div class="mainLogoArea" style="text-align: right; padding-right: 3%;">
+                        <img class="mainLogo" src="https://i.ibb.co/YQnBg5V/logo.png" alt="logo" style="padding-top: 20px; text-align: right;">
+                    </div>
+                    <!--/// End Logo-->
+                </div>
+            </div>
+        </section>
+        <!--=================Start Hero Section==============-->
+        <div class="mainPolicyHeroSection" style="background: #06489d;">
+            <div class="flexBox" style="display: flex; justify-content: space-between; align-items: center; padding: 0px 2%;">
+                <div class="mainPolicyHeroImage" style="height: 290px; margin-top: -70px;">
+                    <img src="https://i.ibb.co/G3b0fFC/hero-img.png" alt="img">
+                </div>
+                <div class="mainPolicyHeroTextArea">
+                    <h1 class="mainPolicyHeroText" style="font-size: 33px; font-weight: 400; color: #fff; text-align: right;">Your Medicare <br>Application <br>has been <br><span style="font-weight: 700;">SUBMITTED!</span></h1>
+                </div>
+            </div>
+        </div>
+        <!--=================End Hero Section==============-->
+        <!--=================Start What Expect Nex Section==============-->
+        <div class="mainExpectArea" style="text-align: right; padding: 22px 0px 70px;">
+            <div class="whatiExpect" style="display: flex; justify-content: flex-end; align-items: flex-end; flex-direction: column; position: relative;">
+                <!--Body Effect-->
+                <div class="pBodyEffect" style="position: absolute; bottom: -15%; left: 40%;">
+                    <img src="https://i.ibb.co/8mWFDjj/body-effect-01.png" alt="img">
+                </div>
+                <!--/// End Body Effect-->
+                <h1 class="whatExpectHeading" style="font-size: 17px; line-height: 21px; color: #fff; font-weight: 700; display: inline-block; background: #e1001a; padding: 11px 10px; border-radius: 5px; box-shadow: 0px 0px 10px 0px gray; margin-right: 45px; position: relative; z-index: 9999;">WHAT TO EXPECT NEXT?</h1>
+                <p class="whatExpectDetails" style="font-size: 17px; line-height: 21px; color: #fff; font-weight: 600; display: inline-block; background: #06489e; padding: 20px 25px; border-radius: 15px; box-shadow: 0px 0px 10px 0px gray; margin-top: -10px; position: relative; z-index: 9999;">
+                    Your new Medicare application <br>
+                    has been submitted and is <br>
+                    currently pending the carriers <br>
+                    underwriting review. You should <br>
+                    expect an update within <br>
+                    48-72 business hours from <br>
+                    the carrier with and updated <br>
+                    status of your Medicare policy.
+                </p>
+            </div>
+        </div>
+        <!--=================End What Expect Nex Section==============-->
+        <!--=================End Policy Details Section==============-->
+        <div class="policyDetailsArea" style="padding: 60px 0px; border-bottom: 1px solid gray;">
+            <div class="flexBox customFlex" style="display: flex; justify-content: space-between; align-items: center; padding: 0px 3%;">
+                <!--Policy Details Left-->
+                <div class="policyDetails">
+                    <button class="policyButton" style="border: none; background: none; font-size: 19px; font-weight: 700; color: #fff; background: #06489f; padding: 10px 20px; border-radius: 17px; box-shadow: 0px 2px 15px 0px black; margin-bottom: 25px;">Policy Details:</button>
+                    <ul>
+                        <li class="policyDetailsItem" style="font-size: 17px; color: #000; font-weight: 700; margin-bottom: 5px;"><img src="https://i.ibb.co/1n504pf/dot.png" alt="dot"> PROVIDER: <span>company_name</span></li>
+                        <li class="policyDetailsItem" style="font-size: 17px; color: #000; font-weight: 700; margin-bottom: 5px; "><img src="https://i.ibb.co/1n504pf/dot.png" alt="dot"> PREMIUM: <span>plan_premium</span></li>
+                        <li class="policyDetailsItem" style="font-size: 17px; color: #000; font-weight: 700; margin-bottom: 5px; "><img src="https://i.ibb.co/1n504pf/dot.png" alt="dot"> EFFECTIVE DATE: <span>effective_date</span></li>
+                    </ul>
+                </div>
+                <!--/// End Policy Details Left-->
+                <!--Policy Details Right-->
+                <div class="policyDetailsImage">
+                    <img src="https://i.ibb.co/28mN0RQ/policy.png" alt="img">
+                </div>
+                <!--/// End Policy Details Right-->
+            </div>
+        </div>
+        <!--=================End Policy Details Section==============-->
+        <!--=================Start Medicare Solutions Inc Section==============-->
+        <div class="medicareSolutionsIncArea" style="padding: 20px 0px 50px;">
+            <div class="container">
+                <div class="medicareSolutions" style="text-align: center;">
+                    <h1 class="medicareSolutionsHeading" style="font-size: 29px; font-weight: 900; line-height: 50px; color:#06489e;">Medicare Solutions Inc.</h1>
+                    <p class="medicareSolutionsDetails" style="font-size: 22px; font-weight: 700; line-height: 50px; color:#000000;">About Our Agency:</p>
+                </div>
+                <div class="medicareSolutionsDetails" style="position: relative;">
+                    <p class="mediacareSolutionsDetailsText" style="font-size: 18px; font-weight: 600; line-height: 30px; color:#fff; padding: 22px; background: #094799; width: 80%; border-radius: 5px; text-align: center; margin: 0 auto; position: relative; z-index: 9999;">Medicare Solutions Inc. is a leading provider for Medicare beneficiaries across the country. We have been awarded and noticed as one of the top Medicare agencies in the country by Better Business Bureau and hold an A+ rating for our outstanding customer service.</p>
+                    <!--Body Effect-->
+                    <div class="meBodyEffectOne" style="position: absolute; top: -15%; left: 7%;">
+                        <img src="https://i.ibb.co/QfJxcb5/effect-01.png" alt="img">
+                    </div>
+                    <div class="meBodyEffectTwo" style="position: absolute; bottom: -15%; right: 3%;">
+                        <img src="https://i.ibb.co/wJLsSKc/m-effect.png" alt="img">
+                    </div>
+                    <!--/// End Body Effect-->
+                </div>
+            </div>
+        </div>
+        <!--=================End Medicare Solutions Inc Section==============-->
+        <!--=================End Processing Section==============-->
+        <div class="mainProcessingArea" style="background: #f1f1f1; padding: 15px 0px;">
+            <div class="flexBox customFlexBox" style="display: flex; justify-content: space-between; align-items: flex-start; padding: 0px 3%;">
+                <!--Copy item-->
+                <div class="processingItem" style="text-align: center;">
+                    <img src="https://i.ibb.co/N6F5pcj/icon-01.png" alt="img">
+                    <h1 class="processingItemHeading" style="font-size: 20px; line-height: 24px; color:#06489e; font-weight: 700; padding: 21px 0px;">Application Status:</h1>
+                    <button class="pendingButton" style="border: none; background: none; font-size: 16px; line-height: 20px; color: #fff; font-weight: 600; background: #06489e; border-radius: 35px;  padding: 8px  16px; box-shadow: 0px 0px 10px 0px gray;">PENDING</button>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="processingItem" style="text-align: center;">
+                    <div class="icon" style="position: relative;">
+                        <hr class="hrLeft" style="height: 5px; width: 130px; background: red; position: absolute; top: 40%; left: -45%; border: none;">
+                        <img src="https://i.ibb.co/K9vKVmB/icon-02.png" alt="img">
+                        <hr class="hrRight" style="height: 5px; width: 130px; background: red; position: absolute; top: 40%; right: -45%; border: none;">
+                    </div>
+                    <h1 class="processingItemHeading" style="font-size: 20px; line-height: 24px; color:#06489e; font-weight: 700; padding: 21px 0px;">Policy in Review:</h1>
+                    <p class="processingItemDetailsTex" style="font-size: 16px; line-height: 20px; color: #000000; font-weight: 400;">Underwriters are <br> diligently working <br> to get your policy <br> approved. </p>
+                </div>
+                <!--/// End Copy item-->
+                <!--Copy item-->
+                <div class="processingItem" style="text-align: center;">
+                    <img src="https://i.ibb.co/2nHDCQN/icon-03.png" alt="img">
+                    <h1 class="processingItemHeading" style="font-size: 20px; line-height: 24px; color:#06489e; font-weight: 700; padding: 21px 0px;">Policy Status Update:</h1>
+                    <p class="processingItemDetailsTex" style="font-size: 16px; line-height: 20px; color: #000000; font-weight: 400;">We will notify you <br>as soon as there are <br>any updates regarding <br> your new Medicare <br> policy.</p>
+                </div>
+                <!--/// End Copy item-->
+            </div>
+        </div>
+        <!--=================End Processing Section==============-->
+        <!--=================End sponsor Section==============-->
+        <div class="sponsorArea" style="padding: 41px 0px; border-bottom: 3px solid #000;">
+            <div class="flexBox" style="display: flex; justify-content: center; align-items: center; padding: 0px 3%;">
+                <div class="google" style="margin-right: 50px;">
+                    <img src="https://i.ibb.co/yB0qTfF/google-review.png" alt="img" width="100%;">
+                </div>
+                <div class="google">
+                    <img src="https://i.ibb.co/3MsLNXm/a-ratting.png" alt="img" width="100%;">
+                </div>
+            </div>
+        </div>
+        <!--=================End sponsor Section==============-->
+        <!--=================End Letter Section==============-->
+        <section class="mainLetterSection customPadding" style="border-bottom: 1px solid gray;">
+            <div class="container">
+                <div class="letterArea">
+                    <h1 class="helloHeading" style="color: #000000; font-size: 20px; line-height: 24px; font-weight: 900; padding: 35px 0px;">Dear $(contactid: (Contacts) firstname),</h1>
+                    <p class="letterDetails" style="color: #000000; font-size: 15px; line-height: 21px; font-weight: 500;">I want to thank you for choosing Medicare Solutions to help you with your
+                        insurance needs. I appreciate the level of trust that you have placed with
+                        us, and I am very confident that you will find yourself extremely pleased
+                        with your decision. Once your policy has been approved the payment will
+                        be drafted from the account that you provided during the application.
+                        This payment will lock in the pricing at the agreed amount and cover the
+                        first month of your policy effective date. The next payment will be due
+                        30 days after your policy’s effective date. The initial premium will typically
+                        be drafted within 48 hours of completing the application. <br> <br>
+                        As a reminder, if you are not drawing Social Security then you will need to
+                        contact them to enroll into your Medicare Part B. The link below will
+                        include instructions on how to do so. You are eligible to enroll within 90
+                        days of your 65th birth month. <br><br>
+                        Here is the direct link to sign up for the Medicare Parts A and B if needed
+                        Social Security Administration. <br><br>
+                        You can also call the Social Security office at 1-800-772-1213 to sign up over
+                        the phone if you prefer. <br><br>
+                        If you are already drawing Social Security, then you will be automatically
+                        enrolled into Part B and do not need to do anything further. Your
+                        Medicare card should arrive within 90 days of your 65th birth month. <br><br>
+                        To get our agency more visible to folks who may need our services, we
+                        are asking for YOUR voice! The easiest way for you to help is by leaving a
+                        review on our Google Business Page, Better Business Bureau, and to LIKE
+                        our Facebook Page. We understand that posting a review takes time, but
+                        please know that your time spent on this will be very appreciated! <br><br>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--=================End Letter Section==============-->
+        <!--=================Start Footer Section==============-->
+        <div class="mainFooterArea" style="background-color: #06489f; padding-top: 17px; padding-bottom: 11px;">
+            <div class="container">
+                <div class="footerArea customPadding" style="display: flex; justify-content: space-between; align-items: center;">
+                    <!--footer Left Area-->
+                    <div class="footerLeftArea" style="padding-right: 3%;">
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/wWJW84X/red-01.png" alt="icon" style="margin-right: 10px;">
+                                <a href="tel:+1 (844) 398-9508" style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">+1 (844) 398-9508</a>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/Zh8cVGC/red-02.png" alt="icon" style="margin-right: 10px;">
+                                <a href="https://www.medicaresolutionsinc.com/" style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">https://www.medicaresolutionsinc.com</a>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                    </div>
+                    <!--/// End footer Left Area-->
+                    <!--footer Right Area-->
+                    <div class="footerRightArea">
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/dtKv5y4/red-03.png" alt="icon" style="margin-right: 10px;">
+                                <span style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">5201 W Kennedy Blved Suite 205, Tempa, FL 33609</span>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                    </div>
+                    <!--/// End footer Right Area-->
+                </div>
+            </div>
+        </div>
+        <!--=================End Footer Section==============-->
+    </div>
+</body>
+
+</html>

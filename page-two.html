@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Main Stylesheet-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            outline: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 650px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
+        body {
+            background: #445d72;
+            max-width: 700px;
+            width: 100%;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .wapper {
+            background: #ebf1f7;
+        }
+
+        @media all and (max-width:600px) {
+            .mainLogo {
+                width: 120px;
+            }
+
+            .plusImage {
+                width: 70px;
+                height: 100px;
+            }
+
+            .emailHeadingText {
+                font-size: 20px;
+            }
+
+            .customPadding {
+                padding: 0px 2%;
+            }
+
+            .footerArea {
+                flex-direction: column;
+                justify-content: flex-start !important;
+                align-items: flex-start !important;
+            }
+        }
+
+        @media all and (max-width:370px) {
+            .emailHeadingText {
+                font-size: 17px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="wapper">
+        <!--=================Start Hero Section==============-->
+        <section class="mainHeroSection">
+            <div class="containers">
+                <div class="heroArea" style="display: flex; justify-content: space-between;">
+                    <!--Logo-->
+                    <div class="mainLogoArea" style="padding-left: 15px;">
+                        <img class="mainLogo" src="https://i.ibb.co/YQnBg5V/logo.png" alt="logo" style="padding-top: 20px;">
+                    </div>
+                    <!--/// End Logo-->
+                    <!--Hero Area-->
+                    <div class="heroDetails">
+                        <img src="https://i.ibb.co/cv4mY1D/hero-img-with-shape-04.png" alt="Hero" style="width: 100%;">
+                    </div>
+                    <!--/// End Hero Area-->
+                </div>
+                <!--Plus Box-->
+                <div class="plusBox" style="padding-left: 15px;">
+                    <img class="plusImage" style="margin-top: -135px;" src="https://i.ibb.co/GxCqZc9/plus.png" alt="plus" style="padding-top: 20px; height: 100px; width: 140px;">
+                </div>
+                <!--/// End Plus Box-->
+            </div>
+        </section>
+        <!--=================End Hero Section==============-->
+        <!--=================Start Main Body Header Section==============-->
+        <section class="mainBodySection" style="background-color: #d9010d; padding: 20px 0px; box-shadow: 0px 0px 10px 1px gray; margin-top: 20px; margin-bottom: 30px;">
+            <div class="container">
+                <div class="emailHeading">
+                    <h1 class="emailHeadingText" style="text-align: center; color: #fff;">Schedule Your Part D Appointment</h1>
+                </div>
+            </div>
+        </section>
+        <!--=================End Main Body Header Section==============-->
+        <!--=================End Letter Section==============-->
+        <section class="mainLetterSection customPadding">
+            <div class="container">
+                <div class="letterArea">
+                    <h1 class="helloHeading" style="color: #000000;">Hello $contacts-firstname$,</h1>
+                    <p class="letterDetails" style="color: #000000; font-size: 15px; line-height: 21px; font-weight: 400;">
+                        My name is <span>$users-first_name$</span> reaching out on behalf of our drug plan specialists in attempt to schedule a telephone appointment to discuss prescription plan options. We understand you may be getting lots of calls and want you to know we are reaching out from your agent
+                        <span>$contacts-smownerid:first_name$</span> <span>$contacts-smownerid:last_name$'s</span> office who helped you enroll in your Medicare supplement policy.
+                        Prescription drug coverage is your Part D of Medicare and is coverage for prescription drugs only. Please contact me at your earliest
+                        convenience to schedule an appointment at <a href="tel:844-398-9508">844-398-9508</a> option 2.
+                    </p> <br>
+                    <p class="letterDetails" style="color: #000000; font-size: 15px; line-height: 21px; font-weight: 400;">Please note, that for this appointment you will need your Medicare number. If you have not already sign up for your Medicare Parts  A and B Here is the direct link to sign up <a style="color: #06489f;" href="https://secure.ssa.gov/iClaim/rib">https://secure.ssa.gov/iClaim/rib</a> You will click on start a New Applications and follow the instructions from there. This link will not allow you to sign up for Social Security benefits, if you need to do so please contact social security at 800-772-1213 or visit the local office.</p>
+                </div>
+            </div>
+        </section>
+        <!--=================End Letter Section==============-->
+        <!--=================Start Form Section==============-->
+        <section class="mainFormArea customPadding" style="padding-top: 25px;">
+            <div class="container">
+                <div class="formArea">
+                    <!--Thank you Notice-->
+                    <div class="thankYouNotice" style="padding-top: 70px; padding-bottom: 34px; display: flex; justify-content: space-between; align-items: center;">
+                        <p class="thankYour" style="color: #000000; font-size: 16px; line-height: 21px; font-weight: 700; margin-right: 10px;">Thank you!</p>
+                        <h1 style="color: #06489f; font-size: 16px; line-height: 21px; font-weight: 700; margin-right: 10px;">Apply for Benefits, Social Security</h1>
+                    </div>
+                    <!--/// End Thank you Notice-->
+                </div>
+            </div>
+        </section>
+        <!--=================End Form Section==============-->
+        <!--=================Start Footer Section==============-->
+        <footer class="mainFooterArea" style="background-color: #06489f; padding-top: 17px; padding-bottom: 11px;">
+            <div class="container">
+                <div class="footerArea customPadding" style="display: flex; justify-content: space-between; align-items: center;">
+                    <!--footer Left Area-->
+                    <div class="footerLeftArea" style="padding-right: 3%;">
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/YRbs587/phone.png" alt="icon" style="margin-right: 10px;">
+                                <a href="tel:+1 (844) 398-9508" style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">+1 (844) 398-9508</a>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/pdPmrnj/browser.png" alt="icon" style="margin-right: 10px;">
+                                <a href="https://www.medicaresolutionsinc.com/" style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">https://www.medicaresolutionsinc.com</a>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                    </div>
+                    <!--/// End footer Left Area-->
+                    <!--footer Right Area-->
+                    <div class="footerRightArea">
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/YRbs587/phone.png" alt="icon" style="margin-right: 10px;">
+                                <a href="mailto:help@medicaresolutionsinc.com" style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">help@medicaresolutionsinc.com</a>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                        <!--Copy item-->
+                        <div class="footerItem" style="margin-bottom: 15px;">
+                            <p class="footerItemText" style="display: flex;justify-content: flex-start; align-items: flex-start;">
+                                <img src="https://i.ibb.co/9b5nH7j/mail.png" alt="icon" style="margin-right: 10px;">
+                                <span style="font-size: 14px; color: #fefefe; font-weight: 400; display: inline-block;">5201 W Kennedy Blved Suite 205, Tempa, FL 33609</span>
+                            </p>
+                        </div>
+                        <!--/// End Copy item-->
+                    </div>
+                    <!--/// End footer Right Area-->
+                </div>
+            </div>
+        </footer>
+        <!--=================End Footer Section==============-->
+    </div>
+</body>
+
+</html>
